@@ -12,10 +12,7 @@ Deshalb nehmen wir mit diesem Wissen für die späteren Erklärungen eine etwas 
 In der künstlichen Intelligenz nehmen wir dafür nicht irgendwelche Modelle, sondern KI-Modelle.
 Unter diesem Modellbegriff lässt sich das Verhältnis von (KI-)Modell und Realität folgendermaßen schematisch darstellen:
 
-<figure>
-<img src="assets/system_modell.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Verhältnis von System und Modell</figcaption>
-</figure>
+![Verhältnis von System und Modell](assets/system_modell.png "Verhältnis von System und Modell")
 
 Die Realität bzw. das System ist Vorbild für das Modell.[^2][^3]
 Das Modell wiederum bildet das System ab.
@@ -84,10 +81,7 @@ Außerdem sind Problemstellungen ab einer bestimmten Komplexität zu umfangreich
 Mit der Zeit hat sich so ein zweiter Ansatz zur Erstellung von KI-Modellen, das _maschinelle Lernen (ML)_, herausgebildet.[^2]
 Beim maschinellen Lernen wird ein _Lernalgorithmus_ ausgeführt, der ein ML-Modell anhand eines Datensatzes _„trainiert"_.
 
-<figure>
-<img src="assets/symbolisch_vs_subsymbolisch.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 60%;">Erstellung von symbolischer KI im Vergleich zur Erstellung von KI-Modellen mittels maschinellen Lernens</figcaption>
-</figure>
+![Erstellung von symbolischer KI im Vergleich zur Erstellung von KI-Modellen mittels maschinellen Lernens](assets/symbolisch_vs_subsymbolisch.png "Erstellung von symbolischer KI im Vergleich zur Erstellung von KI-Modellen mittels maschinellen Lernens")
 
 Im Vergleich der Erstellungsweisen von klassischer symbolischer KI und ML-basierter KI sind die wichtigsten Unterschiede zwischen den beiden Ansätzen zu erkennen.
 Symbolische KI entsteht, indem ein Mensch die Realität betrachtet, sie untersucht, daraus konzeptuelles Wissen gewinnt, und dieses Wissen programmatisch im Modell umsetzt.
@@ -97,10 +91,7 @@ Untersuchung und Erkenntnisbildung durch den Menschen werden ersetzt durch Daten
 Wenn es um maschinelles Lernen geht müssen wir also unsere Vorstellung zum Verhältnis von System und Modell um den Intermediär „Daten" erweitern.
 Dadurch verändert sich unsere zum Einstieg genutzte schematische Darstellung folgendermaßen:
 
-<figure>
-<img src="assets/daten_system_modell.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 30%;">Verhältnis von Daten, System und Modell</figcaption>
-</figure>
+![Verhältnis von Daten, System und Modell](assets/daten_system_modell.png "Verhältnis von Daten, System und Modell")
 
 Das Verhältnis zwischen Realität und Modell wird jetzt nicht mehr durch die menschliche Intelligenz sichergestellt.
 Stattdessen besteht das Verhältnis nur noch mittelbar durch die Daten, und damit auch durch die Perspektive der Daten.
@@ -112,10 +103,7 @@ Typischerweise unterscheidet man zwischen drei zentralen _Lernparadigmen_:[^4]
 - **Unüberwachtes Lernen (unsupervised learning)**: Hier sind im Gegensatz zum überwachten Lernen keine erwünschten Ausgaben vorhanden; das Ziel ist Muster in den Daten zu finden (z.B. Gruppen von ähnlichen Bildern).
 - **Verstärkendes Lernen (reinforcement learning)**: Ein Agent wird in einer (simulierten) Umgebung eingesetzt und lernt anhand von Belohnungen und Bestrafungen.
 
-<figure>
-<img src="assets/ml_cycle.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Typisches Ablaufschema der Modellanpassung beim maschinellen Lernen</figcaption>
-</figure>
+![Typisches Ablaufschema der Modellanpassung beim maschinellen Lernen](assets/ml_cycle.png "Typisches Ablaufschema der Modellanpassung beim maschinellen Lernen")
 
 Der typische Ablauf von maschinellem Lernen lässt sich als iterativer Zyklus beschreiben.[^5]
 Zu Beginn wird ein minimales Basismodell (z. B. zufällig) angenommen.
@@ -165,17 +153,11 @@ Wir erinnern uns: Ein zentrales Ziel der KI-Forschung ist und war, KI zu entwick
 Die menschliche Intelligenz wir am ehesten mit dem menschlichen Gehirn assoziiert.
 Auf diesem Gedanken basiert die Idee der (künstlichen) neuronalen Netzwerke -- menschliche Intelligenz soll nachgeahmt werden, indem die Strukturen des Gehirns im KI-Modell nachempfunden werden.[^2]
 
-<figure>
-<img src="assets/neuron.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 70%;">Aufbau eines biologischen Neurons[^3]</figcaption>
-</figure>
+![Aufbau eines biologischen Neurons](assets/neuron.png "Aufbau eines biologischen Neurons[^3]")
 
 Das menschliche Gehirn besteht aus einer großen Menge von miteinander verbundenen Neuronen, die Signale sammeln, kombinieren und weitergeben.[^2]
 
-<figure>
-<img src="assets/artificial_neuron.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Aufbau eines künstlichen Neurons: links als modulare Einheit, rechts der detaillierte Aufbau</figcaption>
-</figure>
+![Aufbau eines künstlichen Neurons: links als modulare Einheit, rechts der detaillierte Aufbau](assets/artificial_neuron.png "Aufbau eines künstlichen Neurons: links als modulare Einheit, rechts der detaillierte Aufbau")
 
 Das künstliche Neuron ist an das grundsätzliche Schema des biologischen Neurons im Sinne der Verarbeitungsstruktur _Signaleingänge-Signalkombination-Signalausgabe_ (links im Bild abstrakt, rechts im Bild etwas detaillierter) angelehnt.[^4]
 Das künstliche Neuron erhält mehrere _Eingabesignale_ in Form von Zahlen, führt die _Signalkombination_ mittels einer Aktivierungsfunktion aus, und führt dann die _Signalausgabe_ aus, indem es den berechneten Wert über seine ausgehenden Kanten an die nächsten Neuronen weitergibt.[^2]
@@ -183,10 +165,7 @@ Jedes Verbindung, die in ein Neuron eingeht, erhält dabei ein spezifisches _Gew
 Durch die Zusammensetzung dieser künstlichen Neuronen wird ein _neuronales Netzwerk_ konstruiert.[^4]
 Gewissermaßen ist das neuronale Netzwerk damit ein Modell des menschlichen Gehirns, in dem biologische Neuronen untereinander verbunden sind und Signale austauschen.
 
-<figure>
-<img src="assets/nn.png" style="display: block; margin-left: auto; margin-right: auto; width: 40%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 40%;">Beispielhaftes neuronales Netzwerk</figcaption>
-</figure>
+![Beispielhaftes neuronales Netzwerk](assets/nn.png "Beispielhaftes neuronales Netzwerk")
 
 Es hat sich die Konvention etabliert, neuronale Netzwerke grundsätzlich in Schichten zu strukturieren, sodass die Neuronen in einer Schicht immer die Werte von der vorherigen Schicht als Eingänge erhalten und ihre Ausgabewerte an die nachfolgende Schicht weitergetragen werden.[^4][^5]
 Typischerweise wird zwischen der Eingabeschicht, der Ausgabeschicht und sog. _Hidden Layers_ (Versteckte Schichten) unterschieden.[^2]
@@ -204,7 +183,7 @@ Wie genau diese Optimierung stattfindet braucht uns an dieser Stelle nicht zu in
 
 ---
 
-[^1] Vgl. Kinnebrock, W. (1994) _Neuronale Netze: Grundlagen, Anwendungen, Beispiele_. R. Oldenbourg Verlag. 
+[^1] Vgl. Kinnebrock, W. (1994) _Neuronale Netze: Grundlagen, Anwendungen, Beispiele_. R. Oldenbourg Verlag.  
 
 [^2] Kaplan, J. (2024) _Generative artificial intelligence: What everyone needs to know_. Oxford University Press. S.39f.
 
@@ -232,10 +211,7 @@ Um komplexere Probleme zu lösen wurde _Deep Learning (DL)_ entwickelt.[^1]
 Im Grunde ist die Idee wieder recht einfach: Die neuronalen Netzwerke haben -- im Vergleich zu den vorherigen, „flachen" Netzwerken -- eine große Zahl von aufeinander folgenden Hidden Layers.[^2]
 Mit „deep" ist also tatsächlich gemeint, dass Schichtenstruktur der Netzwerke immer tiefer und tiefer geworden ist.
 
-<figure>
-<img src="assets/dl.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 60%;">Beispielhaftes Deep-Learning-Modell</figcaption>
-</figure>
+![Beispielhaftes Deep-Learning-Modell](assets/dl.png "Beispielhaftes Deep-Learning-Modell")
 
 So ein Modell hat ersichtlich deutlich mehr Neuronen und Gewichte -- sprich Parameter -- und auch deutlich mehr Möglichkeiten zur Kombination von Signalen.
 Auf der einen Seite kann es also deutlich komplexere Systeme modellieren.
@@ -249,10 +225,7 @@ Kurz: Die Hoffnung von Deep Learning ist, automatisch auch eine abstrakte Strukt
 
 Am Beispiel einer Handschrifterkennung könnte das so aussehen:
 
-<figure>
-<img src="assets/dl_number.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 60%;">Idealisierter Verarbeitungsablauf einer Handschrifterkennung</figcaption>
-</figure>
+![Idealisierter Verarbeitungsablauf einer Handschrifterkennung](assets/dl_number.png "Idealisierter Verarbeitungsablauf einer Handschrifterkennung")
 
 Man kann sich einen idealisierten Verarbeitungsablauf so vorstellen, dass in der Eingabeschicht die sehr konkreten und feingranularen Daten (hier Pixel) eingegeben werden.
 Im Verlauf der aufeinander folgenden Schichten (Hidden Layer) werden die Pixel immer weiter zu abstrakteren Repräsentationen zusammengesetzt.
@@ -266,10 +239,7 @@ Dieses idealisierte Konstruieren von Objekten aus Strukturen (aus Mustern aus Fo
 Und natürlich ist das obige Beispiel idealisiert -- im Prinzip lässt sich diese schrittweise Abstraktion aber auch bei tatsächlichen Deep-Learning-Modellen, die mittels echter Daten erstellt wurden, erkennen.[^4]
 Zur Untersuchung dieses Phänomens kann man Visualisierungen der Modellgewichte erstellen, die zeigen, welche Regionen für die jeweiligen Schichten/Neuronengruppen besonders relevant sind.
 
-<figure>
-<img src="assets/dl_abstraktion.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 80%;">Visualisierung der Gewichte in einem Bilderkennungs-Modell[^4]</figcaption>
-</figure>
+![Visualisierung der Gewichte in einem Bilderkennungs-Modell](assets/dl_abstraktion.png "Visualisierung der Gewichte in einem Bilderkennungs-Modell[^4]")
 
 In der Visualisierung einiger Gewichte in einem Bilderkennungsmodell lassen sich relevante Strukturen der jeweils zu erkennenden Objekte erkennen.
 Die obere Reihe in der Grafik sind kleinere Strukturen, zum Beispiel Augen, zu erkennen.
@@ -414,19 +384,13 @@ Durch die Umrechnung in einen Vektor und damit auch die Verortung der Bedeutung 
 Tatsächlich ist es so, dass zwei Worte mit ähnlicher Bedeutung vom Embedding auch an ähnlicher Stelle im Vektorraum verortet werden.[^4]
 Die Ähnlichkeit in der Bedeutung kann tatsächlich als (Kosinus-)Ähnlichkeit der Vektoren berechnet werden (Rose ist ähnlich zu Blume, Lilie usw.).
 
-<figure>
-<img src="assets/analogien_embedding.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Berechnung von Wortverhältnissen mit Hilfe eines Embeddings</figcaption>
-</figure>
+![Berechnung von Wortverhältnissen mit Hilfe eines Embeddings](assets/analogien_embedding.png "Berechnung von Wortverhältnissen mit Hilfe eines Embeddings")
 
 Im obigen Bild ist das Ergebnis einer Analogie-Rechnung mit Hilfe eines Embeddings dargestellt.[^3]
 Durch das Rechnen mit den Vektoren lässt sich feststellen, dass „Schall" zu „Ohr" steht wie „Strahl" zu „Auge".
 Diese Untersuchung der Beziehungen von Worten untereinander taucht übrigens als typische Frage zu _Wortanalogien_ oft auch in Intelligenztests auf.
 
-<figure>
-<img src="assets/wortanalogien.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Typische Frage zu Wortanalogien aus einem Intelligenztest</figcaption>
-</figure>
+![Typische Frage zu Wortanalogien aus einem Intelligenztest](assets/wortanalogien.png "Typsiche Frage zu Wortanalogien aus einem Intelligenztest")
 
 Abschließend seien an dieser Stelle noch zwei typische Herausforderungen von Embeddings erwähnt.
 Erstens haben Embeddings Schwierigkeiten mit Polysemie, also mit Worten, die mehrere getrennte Bedeutungen einnehmen können.[^4]
@@ -503,17 +467,11 @@ Mit Semiotik wird gemeinhin die Wissenschaft benannt, die sich im allgemeinen mi
 Klassisch ist die Semiotik in drei Teile geteilt: die Syntaktik, die Semantik und die Pragmatik.
 Die Syntaktik befasst sich mit der Beziehung von Zeichen untereinander, die Semantik mit der Beziehung von Zeichen zu Objekten und die Pragmatik mit der Beziehung von Zeichen zu den Kommunikationsteilnehmern.[^2][^3]
 
-<figure>
-<img src="assets/semiotik.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">Semiotisches Dreieck in Anlehnung an Morris (1938)[^2] und Morris (1939)[^3]</figcaption>
-</figure>
+![Semiotisches Dreieck in Anlehnung an Morris (1938) und Morris (1939)](assets/semiotik.png "Semiotisches Dreieck in Anlehnung an Morris[^2][^3]")
 
 Das Pferd von hinten aufzäumend stellen wir fest, dass sich die Verarbeitungsschritte von LLMs auf ebendiese Dreiteilung der Semiotik abbilden lassen.
 
-<figure>
-<img src="assets/llm_dreieck.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 50%;">LLM-Dreieck analog zum semiotischen Dreieck</figcaption>
-</figure>
+![LLM-Dreieck analog zum semiotischen Dreieck](assets/llm_dreieck.png "LLM-Dreieck analog zum semiotischen Dreieck")
 
 Ohne weitere Umschweife soll nun auf die einzelnen Zuordnungen und die Erkenntnisse, die wir daraus über den Umgang von LLMs mit Sprache gewinnen können, im Detail eingegangen werden.
 
@@ -638,10 +596,7 @@ Aber: Dass Modelle und Anschauungen nicht perfekt sind, und man sich ihrer Grenz
 Der dritte Erklärungsansatz ist das Overselling, also dass KI für etwas verkauft wird, was sie eigentlich nicht ist.
 Der zentrale Unterschied zu den anderen beiden Erklärungsansätzen: Hier ist die Vermenschlichung nicht mehr nur akzidentell oder ein Versehen, sondern ein Produkt der Intention.
 
-<figure>
-<img src="assets/brunellus.jpg" style="display: block; margin-left: auto; margin-right: auto;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 49%;">Brunellus in speculo stultorum (Holzschnitt, unbekannter Künstler)[^2]</figcaption>
-</figure>
+![Brunellus in speculo stultorum. Holzschnitt, unbekannter Künstler.](assets/brunellus.jpg "Brunellus in speculo stultorum. Holzschnitt, unbekannter Künstler.")
 
 Wir wollen -- abermals -- den Zugang über den Namen der Rose wagen:
 
@@ -672,10 +627,7 @@ Kaplan weist auf ein interessantes Phänomen im Zusammenhang mit LLMs hin, das _
 Gemeint ist der scheinbar sprunghafte Anstieg ihrer Fähigkeiten beim Überschreiten einer bestimmten Komplexitätsschwelle.
 Diese Beobachtung legt nahe, dass ab einer bestimmten Modellgröße plötzlich etwas „neues“ auftaucht – vielleicht Intelligenz, die vorher nicht da war?
 
-<figure>
-<img src="assets/emergenz.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 70%;">Scheinbare Emergenz von LLM-Fähigkeiten[^2]</figcaption>
-</figure>
+![Scheinbare Emergenz von LLM-Fähigkeiten](assets/emergenz.png "Scheinbare Emergenz von LLM-Fähigkeiten[^2]")
 
 Die Graphen zeigen die Qualität von LLMs bei bestimmten Problemen (also ihre Fähigkeit, diese Probleme zu lösen) in Abhängigkeit von der Modellkomplexität.
 Die Fähigkeiten nehmen über weite Bereiche kaum zu, bis sie plötzlich sprunghaft ansteigen.
@@ -684,10 +636,7 @@ Demgegenüber ist der Ansatz der neuronalen Netze eher reduktionistisch, weil er
 
 Und -- so interessant es auch wäre -- liegt in den eben gezeigten Untersuchungen nicht der endgültige Beweis für die Emergenz von Intelligenz bei LLMs. 
 
-<figure>
-<img src="assets/emergenz2.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-<figcaption style="display: block; margin-left: auto; margin-right: auto; width: 70%;">Die scheinbare Emergenz verschwindet, wenn man einen anderen Qualitätsmesswert wählt.[^5]</figcaption>
-</figure>
+![Die scheinbare Emergenz verschwindet, wenn man einen anderen Qualitätsmesswert wählt.](assets/emergenz2.png "Die scheinbare Emergenz verschwindet, wenn man einen anderen Qualitätsmesswert wählt.[^5]")
 
 Eine genauere Untersuchung zeigt, dass die plötzlichen Sprünge Artefakte der gewählten Messwerte sind.[^5]
 Mit gründlicher gewählten Messwerten zeigt sich (wie im unteren Teil des zweiten Bildes zu sehen) doch wieder ein gleichmäßiger, fast linearer Anstieg der Fähigkeiten mit der Modellkomplexität.
@@ -733,7 +682,7 @@ Kane, J. (2024) _The Emergence of Mind: Where Technology Ends and We Begin_. Spr
 
 Kaplan, J. (2024) _Generative artificial intelligence: What everyone needs to know_. Oxford University Press.
 
-Kinnebrock, W. (1994) _Neuronale Netze: Grundlagen, Anwendungen, Beispiele_. R. Oldenbourg Verlag. 
+Kinnebrock, W. (1994) _Neuronale Netze: Grundlagen, Anwendungen, Beispiele_. R. Oldenbourg Verlag.  
 
 Krizhevsky, A., Sutskever, I. & Hinton, G.E. (2012) _ImageNet Classification with Deep Convolutional Neural Networks_ NEURIPS '12. [Link](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf).
 
@@ -765,7 +714,7 @@ Zuletzt noch einige Empfehlungen zur vertiefenden Beschäftigung mit den angespr
 
 **Vertiefung der technischen Grundlagen**  
 
-Als eher niedrigschwelliger Einstieg und auch als Zusammenfassung der wichtigsten Konzepte und Problemstellungen empfiehlt sich das bereits erwähnte Buch ovn Jerry Kaplan:
+Als eher niedrigschwelliger Einstieg und auch als Zusammenfassung der wichtigsten Konzepte und Problemstellungen empfiehlt sich das bereits erwähnte Buch von Jerry Kaplan:
 
 > Kaplan, J. (2024) _Generative artificial intelligence: What everyone needs to know_. Oxford University Press.
 
