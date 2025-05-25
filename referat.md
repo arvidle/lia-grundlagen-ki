@@ -349,7 +349,7 @@ Für unser Beispiel sieht das folgendermaßen aus:
 
 Wir sehen, dass jedes Token durch eine Zahl ersetzt wurde.
 Der Satz ist also zu einer Liste von Zahlen umgewandelt worden.
-Man kann auch die Eindeutigkeit der Zuordnung zwischen Token und Zahl erkennen -- wenn in der Eingabe wiederholt (oder auch, wenn das selbe Token bei einer anderen Eingabe auftaucht) wird diesem immer die selbe Zahl zugeordnet.[^4]
+Man kann auch die Eindeutigkeit der Zuordnung zwischen Token und Zahl erkennen -- wenn in der Eingabe wiederholt (oder auch, wenn dasselbe Token bei einer anderen Eingabe auftaucht) wird diesem immer dieselbe Zahl zugeordnet.[^4]
 Beim Beispielsatz zeigt sich das am Token für das Komma, das an zwei Stellen jeweils in die Zahl 11 umgewandelt wurde.
 
 ---
@@ -360,7 +360,7 @@ Beim Beispielsatz zeigt sich das am Token für das Komma, das an zwei Stellen je
 
 [^3] Kaplan (2024) S. 52.
 
-[^4] Sprich: zu jedem Token gibt es genau eine Zahl und es passiert auch nicht dass zwei unterschiedliche Token die selbe Zahl zugeordnet bekommen. So wird sichergestellt, dass Listen von (validen) Token auch wieder zu Texten zurückübersetzt werden können.
+[^4] Sprich: zu jedem Token gibt es genau eine Zahl und es passiert auch nicht dass zwei unterschiedliche Token dieselbe Zahl zugeordnet bekommen. So wird sichergestellt, dass Listen von (validen) Token auch wieder zu Texten zurückübersetzt werden können.
 
 [^5] Nair, S & Resnik, P. (2023) _Words, Subwords, and Morphemes: What Really Matters in the Surprisal-Reading Time Relationship?_. EMNLP 2023. [10.18653/v1/2023.findings-emnlp.752](https://doi.org/10.18653/v1/2023.findings-emnlp.752)
 
@@ -497,7 +497,7 @@ Die typische Struktur des Embedding-Schritts beinhaltet ein Verständnis von Sem
 > „You shall know a word by the company it keeps.“[^5]
 
 Dieses Semantikverständnis wird als _distributionelle Semantik_ bezeichnet.
-Die grundlegende _distributionelle Hypothese_ behauptet, dass Wörter, die in den selben Kontexten genutzt werden und auftreten, auch ähnliche Bedeutungen haben @ref(harris1954).
+Die grundlegende _distributionelle Hypothese_ behauptet, dass Wörter, die in denselben Kontexten genutzt werden und auftreten, auch ähnliche Bedeutungen haben @ref(harris1954).
 Diese implizite Annahme einer distributionellen Semantik ist grundsätzlich nicht vollkommen abwegig, eben weil sie sich theoretisch fundieren lässt, und sich auch in der technischen Praxis als probates Mittel bewiesen hat.
 Kaplan (2024) veranschaulicht dieses Semantikverständnis mit einem Beispiel: Wenn man die Bedeutung eines Wortes nicht kennt, dann schlägt man diese in einem Wörterbuch nach, wo seine Bedeutung durch andere Worte erklärt wird. 
 Andererseits ist die distributionelle Sichtweise nicht die einzig mögliche Konzeption von Semantik.
